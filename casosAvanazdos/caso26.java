@@ -12,7 +12,7 @@ public class caso26 {
 	public static void anoNacimiento() {
 		int edad;
 		int nacimiento;
-		int anoActual=2022;
+		int anoActual=2023;
 		//int anoActual = Calendar.getInstance().get(Calendar.YEAR);
 		edad = basicos.numericos("Introduzca su edad actual: ");
 		if (edad >= 10 && edad <= 100) {

@@ -25,7 +25,8 @@ public class caso28 {
 					System.out.println("cuota mes: " + meses[i] + " " + cuotas);
 				}
 				tiempoPagoSuperior = tiempoPagoSuperior - 1;
-			} while (tiempoPagoSuperior >= 1); //necesito se repita tantas veces como el número de veces que se repite el año siempre que sea un entero.
+			} while (tiempoPagoSuperior >= 1); 
+			//necesito se repita tantas veces como el número de veces que se repite el año siempre que sea un entero.
 			/*si la división no es exacta necesito hacer un recorrido de la parte restante de la división
 			y como en si, es un porcentaje, multiplico ese pequeño número restante por la cantidad de meses
 			para saber el equivalente que representa en meses. */
